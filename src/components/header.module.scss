@@ -1,0 +1,45 @@
+$header-back-color: #1b262c;
+$header-char-color: #bbe1fa;
+
+.App_header {
+  background-color: $header-back-color;
+  display: flex;
+  justify-content: space-between;
+  color: $header-char-color;
+  align-items: center;
+  padding: 0;
+  p {
+    margin: 0;
+    padding: 0;
+    a {
+      text-decoration: none;
+      font-family: "Merriweather", serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: $header-char-color;
+    }
+  }
+  img {
+    margin: 0;
+    padding-left: 2rem;
+    width: 6rem;
+    height: 100%;
+  }
+  nav {
+    margin: 0 4% 0 auto;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0 0 0 15px;
+        font-size: 18px;
+        a {
+          text-decoration: none;
+          font-family: "Merriweather", serif;
+          font-weight: 300;
+          color: $header-char-color;
+        }
+      }
+    }
+  }
+}

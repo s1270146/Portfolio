@@ -1,0 +1,81 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+	margin-right: 1rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #3282B8;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #0F4C75;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bbe1fa;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  top: 0;
+	overflow: hidden;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #0F4C75;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+	overflow: hidden;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+}
+
+.outer-container {
+  margin: 0 4% 0 auto;
+}
+.bm-menu-a {
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  color: #bbe1fa;
+	margin-bottom: 1rem;
+}

@@ -1,0 +1,77 @@
+$main-char-color: #0F4C75;
+
+.App {
+  text-align: center;
+  .App_main {
+    background-color: $main-char-color;
+    background: url(../images/back.jpg) no-repeat center;
+    height: 98vh;
+    width: 100%;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+    .App_list {
+      padding-top: 100px;
+      padding-left: 25%;
+      width: 0%;
+      a {
+        text-decoration: none;
+        .App_type {
+          display: block;
+          font-size: 60px;
+          width: auto;
+          font-family: "Merriweather", serif;
+          color: $main-char-color;
+          padding: 0;
+          margin: 0;
+          animation-name: fadeInAnime;
+          animation-duration:8s;
+          @keyframes fadeInAnime {
+            0% {
+              opacity: 0;
+            }
+            50%{
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 600px){
+        padding-left: 10%;
+        a{
+          .App_type{
+            font-size: 40px;
+          }
+        }
+      }
+    }
+    &:before {
+      content: "";
+      background: inherit;
+      filter: blur(0);
+      animation-name: blur;
+      animation-duration: 8s;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      z-index: -1;
+    }
+    @keyframes blur {
+      0% {
+        filter: blur(30px);
+      }
+      100% {
+        filter: blur(0);
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$footer-back-color: #3282B8;
+$footer-char-color: #BBE1FA;
+
+.App_footer {
+  background-color: $footer-back-color;
+  text-align: center;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  color: $footer-char-color;
+}
