@@ -20,24 +20,27 @@ function Works() {
         >
           Works
         </motion.h1>
-        <motion.article
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.6,
-            duration: 1,
-          }}
-        >
-          <img src={testApp} alt="" />
-          <div className={style.article_sentence}>
-            <h2>React Nativeを使ってゲームを作ってみた!</h2>
-            <p>
-              今回、初めてReact
-              Nativeでゲームを作成してみました。わからないことだらけで環境構築から一苦労。
-              大学の仲間と作成するため、Dockerを使用しました。
-            </p>
-          </div>
-        </motion.article>
+        <a href="https://awake-split-999.notion.site/React-Native-bf675fac3b53417ba82b1011c13d944e">
+          <motion.article
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.6,
+              duration: 1,
+            }}
+          >
+            <img src={testApp} alt="" />
+            <div className={style.article_sentence}>
+              <h2>React Nativeを使ってゲームを作ってみた!</h2>
+              <p>
+                今回、初めてReact
+                Nativeでゲームを作成してみました。わからないことだらけで環境構築から一苦労。
+                大学の仲間と作成するため、Dockerを使用しました。
+              </p>
+            </div>
+          </motion.article>
+        </a>
+        <a href="https://awake-split-999.notion.site/Flutter-Firebase-7372030f2d964cfea8de107abf7f4fd8">
         <motion.article
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -56,6 +59,7 @@ function Works() {
             </p>
           </div>
         </motion.article>
+        </a>
       </main>
       <Footer />
     </div>
