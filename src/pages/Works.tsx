@@ -3,7 +3,8 @@ import style from "./main.module.scss";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { motion } from "framer-motion";
-import testApp from "../images/testApp.jpg";
+import reactImage from "../images/react.png";
+import flutterImage from "../images/flutter.png";
 
 function Works() {
   return (
@@ -29,12 +30,12 @@ function Works() {
               duration: 1,
             }}
           >
-            <img src={testApp} alt="" />
+            <img src={reactImage} alt="" />
             <div className={style.article_sentence}>
-              <h2>React Nativeを使ってゲームを作ってみた!</h2>
+              <h2>React Nativeを使ってゲームを作る!(作成中)</h2>
               <p>
                 今回、初めてReact
-                Nativeでゲームを作成してみました。わからないことだらけで環境構築から一苦労。
+                Nativeでゲームを作成してみました。
                 大学の仲間と作成するため、Dockerを使用しました。
               </p>
             </div>
@@ -49,9 +50,9 @@ function Works() {
             duration: 1,
           }}
         >
-          <img src={testApp} alt="" />
+          <img src={flutterImage} alt="" />
           <div className={style.article_sentence}>
-            <h2>FlutterとFirebaseで割り勘アプリ作成</h2>
+            <h2>FlutterとFirebaseで割り勘アプリを作る!(作成中)</h2>
             <p>
               FlutterとFirebaseを使って割り勘アプリを作成しました。
               旅行などで、「ここは誰が払って、あそこでは誰が払って」と誰が誰に払っていいかわからなくなる時があります。
