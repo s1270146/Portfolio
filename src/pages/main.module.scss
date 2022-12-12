@@ -31,7 +31,7 @@ $phone-size: 600px;
         margin: 0 3rem;
       }
     }
-    a{
+    a {
       text-decoration: none;
       article {
         margin: 0 2rem 1rem 2rem;
@@ -62,45 +62,49 @@ $phone-size: 600px;
       h1 {
         font-size: 2.5rem;
       }
-      article{
-        padding: 0.5rem;
-      img {
-        width: 6rem;
-        height: 6rem;
-      }
-      .article_sentence {
-        height: 5rem;
-        padding: 0 0.4rem;
-      }
-      h2{
-        font-size: 1rem;
-      }
-      p{
-        font-size: 0.7rem;
-      }
+      a {
+        article {
+          padding: 0.5rem;
+          img {
+            width: 6rem;
+            height: 6rem;
+          }
+          .article_sentence {
+            height: 5rem;
+            padding: 0 0.4rem;
+          }
+          h2 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.7rem;
+          }
+        }
       }
     }
-    @media screen and (max-width: $phone-size){
+    @media screen and (max-width: $phone-size) {
       padding: 0;
-      h1{
+      h1 {
         margin: 1rem;
         font-size: 2rem;
       }
-      article{
-        margin: 0 1rem 0.5rem 1rem;
-        img{
-          width: 4rem;
-          height: 4rem;
-        }
-        .article_sentence{
-          height: 4.5rem;
-        }
-        h2{
-          font-size: 1rem;
-        }
-        @media screen and (max-width: 525px){
-          p{
-            display: none;
+      a{
+        article {
+          margin: 0 1rem 0.5rem 1rem;
+          img {
+            width: 4rem;
+            height: 4rem;
+          }
+          .article_sentence {
+            height: 4.5rem;
+          }
+          h2 {
+            font-size: 1rem;
+          }
+          @media screen and (max-width: 525px) {
+            p {
+              display: none;
+            }
           }
         }
       }
