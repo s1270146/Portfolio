@@ -2,7 +2,6 @@ import React from "react";
 import style from "./main.module.scss";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { motion } from "framer-motion";
 import dartImage from "../images/dart.png";
 import flutterImage from "../images/flutter.png";
 
@@ -11,24 +10,25 @@ function Diary() {
     <div className={style.App}>
       <Header />
       <main>
-        <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.4,
-            duration: 1,
-          }}
+        <h1
         >
           Blog
-        </motion.h1>
+        </h1>
+        <a href="https://awake-split-999.notion.site/Flutter-Riverpod-part1-f20b0f55b5964d938def00131fba220a">
+          <article
+          >
+            <img src="https://riverpod.dev/ja/img/logo.png" alt="https://riverpod.dev/ja/img/logo.png" />
+            <div className={style.article_sentence}>
+              <h2>【Flutter】Riverpodについて part1【メモ】</h2>
+              <p>
+                今までStatefulWidgetを使って状態管理をしていたのですが、アルバイトでのチーム開発や個人で改善したい時に
+                どうしても状態管理が複雑で難しくなってしまいました。そこで状態管理のパッケージRiverpodについての内容を学習程度にメモしました。
+              </p>
+            </div>
+          </article>
+        </a>
         <a href="https://awake-split-999.notion.site/Flutter-freezed-8ceb926c57d04db2af2076b91523a8bc">
-          <motion.article
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.6,
-              duration: 1,
-            }}
+          <article
           >
             <img src={flutterImage} alt="" />
             <div className={style.article_sentence}>
@@ -37,16 +37,10 @@ function Diary() {
                 flutterのパッケージ「freezed」についてメモ程度にまとめました。
               </p>
             </div>
-          </motion.article>
+          </article>
         </a>
         <a href="https://awake-split-999.notion.site/Flutter-Dart-immutable-363e87e806e844969d416b872b8d1437">
-          <motion.article
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.8,
-              duration: 1,
-            }}
+          <article
           >
             <img src={dartImage} alt="" />
             <div className={style.article_sentence}>
@@ -55,7 +49,7 @@ function Diary() {
                 riverpodを使うためにfreezedを使うためにdartのimmutableについて調べたものをメモしました。
               </p>
             </div>
-          </motion.article>
+          </article>
         </a>
       </main>
       <Footer />
