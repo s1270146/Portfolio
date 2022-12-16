@@ -14,6 +14,18 @@ function Diary() {
         >
           Blog
         </h1>
+        <a href="https://awake-split-999.notion.site/SciPy-t-89f8fc12bc3b410b8d501fd556fb6389">
+          <article
+          >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtatXVk-WJXgxKgT8r_RsRxQmBxd6dri4yMro0dwdkNRkku7umOhqRDZR2maRBCVK9xm0&usqp=CAU" alt="" />
+            <div className={style.article_sentence}>
+              <h2>【統計】SciPyを使ってt検定を行う</h2>
+              <p>
+              研究で出てきた二種類のデータの平均で比較していたところ、教授から「統計学を使ってもっと詳しく比較してみた方がよい」と言われました。そこで二つのデータを比較するためのt検定というのを見つけました。
+              </p>
+            </div>
+          </article>
+        </a>
         <a href="https://awake-split-999.notion.site/Flutter-Riverpod-part1-f20b0f55b5964d938def00131fba220a">
           <article
           >
