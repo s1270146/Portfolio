@@ -11,7 +11,7 @@ function Diary() {
       <Header />
       <main>
         <h1>Blog</h1>
-        <a href="https://awake-split-999.notion.site/Flutter-FVM-https://awake-split-999.notion.site/Flutter-Riverpod-part3-270e8eca2f8d40a6b4a8dcb6d70b7373">
+        <a href="https://awake-split-999.notion.site/Flutter-Riverpod-part3-270e8eca2f8d40a6b4a8dcb6d70b7373">
           <article>
             <img src={flutterImage} alt="" />
             <div className={style.article_sentence}>
@@ -33,7 +33,7 @@ function Diary() {
             </div>
           </article>
         </a>
-        <a href="https://awake-split-999.notion.site/Flutter-FVM-https://awake-split-999.notion.site/Flutter-Riverpod-part2-0f9d75c37ff849a7a45f3a12cf326889">
+        <a href="https://awake-split-999.notion.site/Flutter-Riverpod-part2-0f9d75c37ff849a7a45f3a12cf326889">
           <article>
             <img src="https://riverpod.dev/ja/img/logo.png" alt="" />
             <div className={style.article_sentence}>
