@@ -11,21 +11,36 @@ function Diary() {
       <Header />
       <main>
         <h1>Blog</h1>
-        <a href="https://awake-split-999.notion.site/Flutter-FVM-4fd6f7465647427183df1d86df057625">
+        <a href="https://awake-split-999.notion.site/Flutter-FVM-https://awake-split-999.notion.site/Flutter-Riverpod-part3-270e8eca2f8d40a6b4a8dcb6d70b7373">
           <article>
             <img src={flutterImage} alt="" />
             <div className={style.article_sentence}>
-              <h2>【Flutter】FVMについて</h2>
-              <p></p>
+              <h2>【Flutter】Riverpodについて part3【メモ】</h2>
+              <p>
+                Riverpodについてのメモを追加しました。
+              </p>
             </div>
           </article>
         </a>
         <a href="https://awake-split-999.notion.site/Flutter-FVM-4fd6f7465647427183df1d86df057625">
           <article>
+            <img src={flutterImage} alt="" />
+            <div className={style.article_sentence}>
+              <h2>【Flutter】FVMについて</h2>
+              <p>
+                dartの中の機能でFlutterのバージョンを管理できるFVMについてメモしました。
+              </p>
+            </div>
+          </article>
+        </a>
+        <a href="https://awake-split-999.notion.site/Flutter-FVM-https://awake-split-999.notion.site/Flutter-Riverpod-part2-0f9d75c37ff849a7a45f3a12cf326889">
+          <article>
             <img src="https://riverpod.dev/ja/img/logo.png" alt="" />
             <div className={style.article_sentence}>
               <h2>【Flutter】Riverpodについて part2【メモ】</h2>
-              <p></p>
+              <p>
+                RiverpodのメモPart2として、プロバイダの利用方法をまとめました。
+              </p>
             </div>
           </article>
         </a>
